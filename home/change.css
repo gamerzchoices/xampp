@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    margin: 4px;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+th {
+    background-color: rgb(7, 197, 7);
+}

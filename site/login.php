@@ -14,7 +14,9 @@ if (isset($_POST['login'])) {
     if (mysqli_num_rows($result) === 1) {
         $check = mysqli_fetch_assoc($result);
 
+
         if ($check['email'] === $email && $check['password'] === $password) {
+            $_SESSION['email'] = $email;
             header("location:dashboard.php");
         }
     } else {

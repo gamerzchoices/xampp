@@ -1,3 +1,12 @@
+<?php
+include 'connection.php';
+
+if (!$_SESSION['email']) {
+    header("location:login.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

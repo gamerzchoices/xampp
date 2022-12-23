@@ -2,6 +2,10 @@
 
 include 'connection.php';
 
+if (!$_SESSION['email']) {
+    header("location:login.php");
+}
+
 $Query = "SELECT * FROM users";
 $result =  $conn->query($Query);
 

@@ -12,7 +12,14 @@ if(!$_SESSION['email']){
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Cobtact page of Prabesh Gupta">
+    <meta name="keywords" content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
+    <meta name="author" content="Prabesh Gupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prabesh Gupta</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,7 +41,8 @@ if(!$_SESSION['email']){
         </div>
     </nav>
 
-    <h2 style="padding: 10px;">Contact me for more information</h2>
+    <div class="contactInfo"><h2 style="padding: 10px;">Contact me for more information</h2></div>
+
 
     <div class="contact">
         <form action="backend url">
@@ -42,13 +50,13 @@ if(!$_SESSION['email']){
                 <legend><strong>Enter your details</strong><br><br>
                 </legend>
                 <label for="">Enter Fullname </label>
-                <input type="text" placeholder="Enter full name"><br><br>
+                <input type="text" name="fullname"><br><br>
 
                 <label for="">Enter email </label>
-                <input type="email" name="email" id="Email" placeholder="Email"><br><br>
+                <input type="email" name="email" id="Email"><br><br>
 
                 <label for="">Phone Number</label>
-                <input type="number" name="phone" id="Phone" placeholder="Phone number"><br><br>
+                <input type="number" name="phone" id="Phone"><br><br>
 
                 <label for="">Gender</label>
                 <input type="radio" name="gender" id="gender">Male

@@ -42,7 +42,7 @@ nav .nav-right {
 }
 
 div.bannerArt {
-  width: 98%;
+  width: auto;
   border: 2px solid black;
   float: left;
   margin: 13px;
@@ -137,6 +137,7 @@ div.photos img {
 div.desc {
   padding: 7px;
   text-align: center;
+  font-weight: 500;
 }
 
 div.photos:hover {
@@ -199,6 +200,106 @@ input[type="submit"]:hover {
   color: white;
 }
 
+@media only screen and (max-device-width: 616px) and (min-device-width: 320px) {
+
+  header {
+    display: block;
+    font-size: large;
+  }
+
+  nav a {
+    color: white;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .row .column.middle,
+  .row .column.side {
+    width: 95%;
+    margin-right: 4%;
+    margin-left: 1%;
+    display: block;
+  }
+
+  div.interest,
+  div.books {
+    font-size: small;
+    margin-left: 20px;
+  }
+
+  div.photos {
+    float: left;
+    width: 400px;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 1em 2.6em;
+  }
+
+  div.photos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    font-size: x-large;
+  }
+
+  .contactInfo {
+    font-size: large;
+  }
+
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact input[type="number"],
+  .login input[type="email"],
+  .login input[type="password"],
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"] {
+    width: 90%;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact input[type="number"] {
+    padding: 23px;
+  }
+
+  .contact input[type="radio"],
+  .contact input[type="checkbox"] {
+    display: inline;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 40px;
+    justify-content: center;
+  }
+
+  .contact select {
+    width: 20%;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .contact textarea {
+    width: 90%;
+  }
+
+  .contact input[type="submit"],
+  .login input[type="submit"],
+  .register input[type="submit"] {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+}
+
+.contact input[type="submit"] {
+  font-size: x-large;
+  padding: 20px 18px;
+}
+
 footer {
   position: sticky;
   top: 100%;
@@ -210,7 +311,7 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-@media screen and (max-width: 617px) {
+@media only screen and (max-device-width: 617px) {
 
   .column.middle,
   .column.side {

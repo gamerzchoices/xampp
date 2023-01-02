@@ -30,6 +30,9 @@ if(isset($_POST['login'])){
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Login page of Prabesh Gupta">
+    <meta name="keywords" content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
+    <meta name="author" content="Prabesh Gupta">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -59,9 +62,9 @@ if(isset($_POST['login'])){
     <div class="login">
         <form action="login.php" method="POST">
             <label>Email</label><br>
-            <input type="email" name="email" require><br>
+            <input type="email" name="email" required><br>
             <label>Password</label><br>
-            <input type="password" name="password" require><br>
+            <input type="password" name="password" required><br>
 
             <input type="submit" name="login" value="Login">
         </form>
